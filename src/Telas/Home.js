@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import PetCard from '../Componentes/PetCard';
-import { BrowserRouter as Link } from 'react-router-dom';  // Atualize para Routes
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
@@ -59,8 +59,6 @@ function Home() {
           <PetCard key={index} pet={pet} />
         ))}
       </div>
-      
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></link>
     </div>
   );
 }
