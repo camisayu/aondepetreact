@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import PetCard from './Componentes/CardPet';
 import { BrowserRouter as Link } from 'react-router-dom';  // Atualize para Routes
 import './Home.css';
 
