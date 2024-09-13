@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/informacoes-pet" element={<InformacoesPet />} />
-        {/* Adicione outras rotas conforme necessário */}
+        <Route path="/conta" element={<Conta />} />
       </Routes>
     </Router>
   );
