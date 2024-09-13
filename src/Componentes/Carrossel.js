@@ -30,10 +30,10 @@ const Carrossel = ({ imagens }) => {
         ))}
       </div>
       <button className="carrossel-prev" onClick={handleAnterior}>
-        &#10094;
+        <i className="fas fa-chevron-left"></i>
       </button>
       <button className="carrossel-next" onClick={handleProximo}>
-        &#10095;
+      <i className="fas fa-chevron-right"></i>   
       </button>
     </div>
   );

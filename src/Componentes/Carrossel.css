@@ -27,9 +27,11 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
-    color: white;
+    background: none;
     border: none;
+    cursor: pointer;
+    font-size: 24px; /* Tamanho do ícone */
+    color: #e8d1ff;
     padding: 10px;
     cursor: pointer;
     z-index: 10; /* Coloca os botões acima do carrossel */
