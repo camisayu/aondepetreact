@@ -32,7 +32,7 @@ const Conta = () => {
                 <label htmlFor="password">Senha:</label>
                 <input type="password" id="password" placeholder="Digite sua senha" />
             
-                <button type="submit">Entrar</button>
+                <button type="submit" onClick={() => navigate("/")}>Entrar</button>
                 <button type="submit">Cadastrar</button>
             </form>
         </div>
